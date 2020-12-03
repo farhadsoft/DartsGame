@@ -12,7 +12,7 @@ namespace DartsGame
         /// <returns>The earned points.</returns>
         public static int GetScore(double x, double y)
         {
-            int result = 0;
+            int result;
 
             if (Math.Abs(x) + Math.Abs(y) <= 1)
             {
